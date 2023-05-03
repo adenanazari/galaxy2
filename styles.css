@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    color: #55dde0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif
+}
+
+#hero {
+    background-image: url("icegif-1642.gif");
+    background-size: cover;
+    padding: 150px 0 40px 0;
+}
+
+#main-logo {
+    width: 85px;
+    border-radius: 50%;
+}
+
+/*
+Challenge:
+Add a blurred border around the <h1> using
+the text-shadow technique you just learned. Set
+the blur to 4px and the color to black.
+*/
+
+#title {
+    text-shadow: 0px 0px 6px black;
+}
+
+.btn {
+    padding: 6px 12px;
+    background: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: #33658a;
+    font-weight: 800;
+    border-radius: 10%;
+}
+
+.underline {
+    border-bottom: 4px solid pink;
+}
+   
